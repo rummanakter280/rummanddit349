@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+header{
+    background: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+    
+}
+.main_header{
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+}
+.logo_part{
+    width: 50%;
+    float: left;
+}
+.logo_part img{}
+.manu_bar{
+    width: 50%;
+    float: left;
+}
+.manu_bar ul{
+    margin: 10px auto;
+
+}
+.manu_bar ul li{
+    list-style: none;
+    display: inline-block;
+    float: inline-end;
+}
+.manu_bar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+    color: aliceblue;
+
+
+}
+.manu_bar ul li a:hover{
+    color: brown;
+
+}
+.hero_area{  
+    width: 100%;
+    float: left;
+    text-align: center;
+    
+}
+.hero_area h1{
+    padding-top: 20px;
+    color: aliceblue;
+}
+.hero_area p{
+    padding-top: 20px;
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+.hero_area a button{
+    padding-top: 20px;
+    padding: 5px;
+    border-radius: 1px;
+    color: brown;
+}
+.hero_area a button:hover{
+   background-color: aqua;
+   color: blueviolet;
+}
+.hero_area img{
+  
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+}
